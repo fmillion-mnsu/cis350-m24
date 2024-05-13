@@ -123,7 +123,7 @@ More information about missing class sessions can be found in the [Missed Classe
 
 ### Exams
 
-There will be *two* exams in this course. The first exam will occur on *Monday, May 27th* and the second will occur on *Wednesday, June 12th*. You will have time during the second half of the scheduled course meeting time (11AM-12PM) on exam days to complete the exam during class time. Exams will cover lecture content, class discussions, lab activities and specified supplemental reading materials. Exams will be administered via D2L. 
+There will be *two* exams in this course. The first exam will occur on *Wednesday, May 29th* and the second will occur on *Wednesday, June 12th*. You will have time during the second half of the scheduled course meeting time (11AM-12PM) on exam days to complete the exam during class time. Exams will cover lecture content, class discussions, lab activities and specified supplemental reading materials. Exams will be administered via D2L. 
 
 More information on exams will be discussed in class.
 
