@@ -8,13 +8,20 @@ This course is offered as an Online Synchronous course. Attendance to Zoom sessi
 
 This is a 4-credit course.
 
-> This is version **1.0** of the syllabus. Any changes will be announced in class and posted in this repository as well as on D2L.
+> This is version **1.1** of the syllabus. Any changes will be announced in class and posted in this repository as well as on D2L.
+
+## Change Log
+
+* **v1.1**: Add info on Memorial Day - no class
+* **v1.0**: Initial release
 
 ## Class Time and Place
 
-- **Semester**: Summer 2024, Session 1 (5/13/2024 through 6/12/2024), **10** class sessions
-- **Days and Time**: Mondays and Wednesdays, 10:00 AM - 12:00 PM ([iCalendar File](https://github.com/fmillion-mnsu/cis350-m24/raw/master/cis350.ics))
-- **Location:** Zoom. See D2L for the Zoom link and password.
+* **Semester**: Summer 2024, Session 1 (5/13/2024 through 6/12/2024), **9** class sessions
+* **Days and Time**: Mondays and Wednesdays, 10:00 AM - 12:00 PM ([iCalendar File](https://github.com/fmillion-mnsu/cis350-m24/raw/master/cis350.ics))
+* **Location:** Zoom. See D2L for the Zoom link and password.
+
+> Note: There is **no class** on Monday, May 27th, in observance of Memorial Day.
 
 ## Instructor
 
