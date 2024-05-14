@@ -8,10 +8,11 @@ This course is offered as an Online Synchronous course. Attendance to Zoom sessi
 
 This is a 4-credit course.
 
-> This is version **1.1** of the syllabus. Any changes will be announced in class and posted in this repository as well as on D2L.
+> This is version **1.2** of the syllabus. Any changes will be announced in class and posted in this repository as well as on D2L.
 
 ## Change Log
 
+* **v1.2**: Remove info specific to CS Majors.
 * **v1.1**: Add info on Memorial Day - no class
 * **v1.0**: Initial release
 
@@ -31,7 +32,7 @@ This is a 4-credit course.
 
 It's important to me that I be available to help you succeed in this course. If you need to contact me, please send me an E-mail. I try to answer all emails within 24 hours, including weekends - even if I need more time to respond, I will acknowledge receipt of your message. If I have not responded to your E-mail message after 24 hours, please resend the message in case it got lost or buried. *Do not feel you need to wait longer than 24 hours* to resend your message - I would rather see your message more than once than miss your questions!
 
-If you would like to meet with me directly, you can schedule time with me to meet in my office or in the CS Project space. Please contact me via E-mail or before or after class and I will accommodate your time schedule to the best of my ability.
+If you would like to meet with me directly, you can schedule time with me to meet in my office or via Zoom. Please contact me via E-mail or before or after class and I will accommodate your time schedule to the best of my ability.
 
 ## Course Description
 
