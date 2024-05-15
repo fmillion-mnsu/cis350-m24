@@ -1,8 +1,15 @@
 # Individual Assignment 1
 
-For this assignment you will identify potential security risks that you have encountered or observed in your own experience with using technology. 
+For this assignment you will identify potential or actual security risks that you have encountered or observed in your own experience with using technology and/or working with information and data.
 
-Think about the technology and data you work with every day. Also, you can think about scenarios or issues your friends, family, or classmates have experienced. For this assignment you will identify **eight (8) instances of potential or realized information security threats.**
+Think about the technology and data you work with every day. Also, you can think about scenarios or issues your friends, family, or classmates have experienced. Threats need not be specific to computers or the Internet; any practice or policy that poses a threat to the CIA principles is fine. For this assignment you will identify **eight (8) instances of potential or realized information security threats.**
+
+The security threats you identify should be at least somewhat specific to the situation at hand. Examples of good topics include:
+
+* A poor practice on a website that you use that could present opportunity for a threat. (Identify the website and the interaction that poses the threat, and why.)
+* An in-person or phone interaction that exhibits strong potential to be spoofed. (Describe the interaction and why spoofing is easy.)
+* A friend or family member practicing poor security hygiene. (You need not call out anyone specifically, but do describe the poor practice and why it poses a threat.)
+* A security practice at your company, which is intended to increase security, actually has the potential to reduce or impair security. (Describe what goal the practice is intended to fulfill, and why it also reduces overall security.)
 
 For each security threat:
 
