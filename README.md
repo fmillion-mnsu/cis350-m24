@@ -3,4 +3,8 @@
 ## Important Links
 
 * [Course Syllabus](SYLLABUS.md)
-* [How to Test VirtualBox](VIRTUALBOX.md)
+* Virtualization Setup:
+    * [How to Setup and Test VirtualBox on Windows and Intel Macs](VIRTUALBOX.md)
+    * [How to Setup and Test UTM for Apple Silicon Macs](UTM.md)
+* Assignments:
+    * [Individual Assignment 1](I_ASSIGN1.md)
