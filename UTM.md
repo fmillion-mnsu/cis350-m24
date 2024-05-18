@@ -31,15 +31,15 @@ These instructions are equivalent to the VirtualBox instructions provided [here]
 1. Launch the UTM application.
 1. Choose the Create New VM option:
 
-    ![images/utm_01_new.png](Image of the button labeled Create a New Virtual Machine.)
+    ![Image of the button labeled Create a New Virtual Machine.](images/utm_01_new.png)
 
 1. Choose the **Emulate** option. This is the option that lets you run Intel-based virtual machines on an Apple Silicon Mac:
 
-    ![images/utm_02_emulate.png](Image of button labeled "Emulate - Slower, but can run other CPU architectures.)
+    ![Image of button labeled "Emulate - Slower, but can run other CPU architectures.](images/utm_02_emulate.png)
 
 1. Choose **Linux** as the OS.
 
-    ![images/utm_03_linux.png](Image of the Linux button.)
+    ![Image of the Linux button.](images/utm_03_linux.png)
 
 1. On the next screen, use the Browse button and locate the Ubuntu ISO you downloaded. 
 
@@ -65,7 +65,7 @@ These instructions are equivalent to the VirtualBox instructions provided [here]
 
     If all went well, you should now see the main UTM screen along with the VM you created:
 
-    ![images/utm_04_configured.png](Image of UTM main window with a Linux VM configured and ready for use.)
+    ![Image of UTM main window with a Linux VM configured and ready for use.](images/utm_04_configured.png)
 
 1. Click on the Play icon for the VM you just created.
 
@@ -81,12 +81,12 @@ These instructions are equivalent to the VirtualBox instructions provided [here]
     > * Right-click the VM and choose Edit to access settings.
     > * Under "System", check "Force Multicore".
     > 
-    >     ![images/utm_a_multicore.png](Image showing the VM system settings, with Force Multicore checked.)
+    >     ![Image showing the VM system settings, with Force Multicore checked.](images/utm_a_multicore.png)
     >
     > * Click Save, and then try starting the VM again.
 
     If all went well you should end up here:
 
-    ![images/utm_05_running.png](Image of Intel-based Ubuntu 24.04 running in UTM on Apple Silicon displaying the Ubuntu desktop)
+    ![Image of Intel-based Ubuntu 24.04 running in UTM on Apple Silicon displaying the Ubuntu desktop](images/utm_05_running.png)
 
 Congratulations - you have a working VM environment!
