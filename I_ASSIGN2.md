@@ -1,6 +1,6 @@
 # Individual Assignment 2
 
-**Due Date: May 28th, 2024 at 11:59 PM**
+**Due Date: May 31st, 2024 at 11:59 PM**
 
 For this assignment you will create a form of educational material to inform and guide an average person on what a given attack is and how to protect themselves against it.
 
