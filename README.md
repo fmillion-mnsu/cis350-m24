@@ -8,3 +8,4 @@
     * [How to Setup and Test UTM for Apple Silicon Macs](UTM.md)
 * Assignments:
     * [Individual Assignment 1](I_ASSIGN1.md)
+    * [Individual Assignment 2](I_ASSIGN2.md)

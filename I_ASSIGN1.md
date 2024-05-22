@@ -1,5 +1,7 @@
 # Individual Assignment 1
 
+**Due Date: May 19th, 2024 at 11:59 PM**
+
 For this assignment you will identify potential or actual security risks that you have encountered or observed in your own experience with using technology and/or working with information and data.
 
 Think about the technology and data you work with every day. Also, you can think about scenarios or issues your friends, family, or classmates have experienced. Threats need not be specific to computers or the Internet; any practice or policy that poses a threat to the CIA principles is fine. For this assignment you will identify **eight (8) instances of potential or realized information security threats.**
