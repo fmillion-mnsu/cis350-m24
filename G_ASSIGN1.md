@@ -28,13 +28,17 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
 1. **VERY IMPORTANT**: You MUST connect your virtual machines to a **Host-Only** network. (Failing to do this will result in significant point loss!) The method for assigning your VMs to a Host-Only network depends on your virtualization platform:
 
-    # VirtualBox
+    ### VirtualBox
 
-    stuff
+    Right-click on the VM and choose Settings. Select the Network category, and choose "Host-only Adapter" under "Attached to".
 
-    # UTM
+    ![VirtualBox screenshot showing highlighted Attached To drop-down box](images/vbox_a1_hostonly.png)
+    
+    ### UTM
 
-    stuff
+    Right-click (two-finger click on trackpads) on the VM in the UTM list and choose "Edit". Find the "Network" settings, and choose "Host-Only" under Network Mode.
+
+    ![UTM screenshot showing arrow pointing at the Network Mode option](images/utm_a1_hostonly.png)
 
 1. Start up the Target VM.
 
