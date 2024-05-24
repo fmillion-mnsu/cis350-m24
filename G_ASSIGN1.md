@@ -22,7 +22,7 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
 1. Download the two virtual machine images for your particular virtualization system.
 
-1. Start by adding the "Target" virtual machine to your VM environment. See the [Importing VMs for VirtualBox](IMPORT_VBOX.md) or the [Importing VMs for UTM](IMPORT_UTM.md) documents for details on exactly how to add the VM to your environment.
+1. Start by adding the "Target" virtual machine to your VM environment. See the [Importing VMs for VirtualBox](VM_IMPORT.md#virtualbox) or the [Importing VMs for UTM](VM_IMPORT.md#utm) documents for details on exactly how to add the VM to your environment.
 
 1. Also add the "PenTest" VM to your environment.
 
@@ -33,7 +33,7 @@ There are two sets of images - one for VirtualBox users who are using Windows or
     Right-click on the VM and choose Settings. Select the Network category, and choose "Host-only Adapter" under "Attached to".
 
     ![VirtualBox screenshot showing highlighted Attached To drop-down box](images/vbox_a1_hostonly.png)
-    
+
     ### UTM
 
     Right-click (two-finger click on trackpads) on the VM in the UTM list and choose "Edit". Find the "Network" settings, and choose "Host-Only" under Network Mode.
