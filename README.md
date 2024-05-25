@@ -9,3 +9,4 @@
 * Assignments:
     * [Individual Assignment 1](I_ASSIGN1.md)
     * [Individual Assignment 2](I_ASSIGN2.md)
+    * [Group Assignment 1](G_ASSIGN1.md)

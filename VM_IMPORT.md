@@ -27,3 +27,8 @@ This document describes the steps for importing a virtual machine into your virt
 
 ## UTM
 
+UTM users have it easy. Simply download the .utm file from D2L, which may be zipped. Depending on your browser, your Mac may automatically decompress the .zip file, or it may not.
+
+If the .zip file is not decompressed, simply double-click it in the Finder to decompress it.
+
+Then, launch UTM and simply choose File -> Open. Then select the UTM file. That's it! The VM is now imported.

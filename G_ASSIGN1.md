@@ -80,7 +80,7 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     **Take a screenshot** showing the list of open ports.
 
-1. Power off the target VM by closing its window and choosing to shut down the system. (Do not "save state" or "send shutdown signal" as neither of these will actually effect a full shutdown.)
+1. Power off the target VM by closing its window and choosing to shut down the system. (Do not "save state" or "send shutdown signal" as neither of these will actually effect a full shutdown.) In UTM, click the red button that indicates you are fine with the VM being shutdown "unsafely".
 
 1. **Repeat the port scan process two more times** for a total of three port scans. (Power on the Target VM and wait for it to display its code words and IP address, then run `nmap` again to do another scan. Once again, screenshot or note both the code words and the list of open ports.) Power off the target VM each time and then turn it back on.
 
