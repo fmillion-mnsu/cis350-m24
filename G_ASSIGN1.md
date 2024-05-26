@@ -74,6 +74,8 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     If the ping works, you should see replies coming from the target VM at the IP address it indicates it has. If you see timeouts or errors, you need to check the configuration of both of your VMs to ensure they are both on the same Host-Only network.
 
+    Press Ctrl+C to stop the ping command from running.
+
 1. Now it's time to actually execute the portscan.
 
         nmap <IP_of_target>
