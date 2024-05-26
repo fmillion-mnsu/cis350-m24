@@ -44,6 +44,8 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     If the VM starts successfully, you should see a screen similar to this:
 
+    ![Screenshot showing target VM with code words and IP](images/asgn1_target.png)
+
     **Take a screenshot of this screen**. The four code words on screen are required as part of your submission - not including these code words will result in significant loss of points.
 
 1. Now, start up the PenTest VM.
@@ -52,6 +54,8 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     If you are successful, you should now see a screen similar to this:
 
+    ![Screenshot showing login screen of pentest VM](images/asgn1_pentest.png)
+    
     You are now ready to perform your port scan.
 
     (You do not need to screenshot the PenTest boot screen.)
