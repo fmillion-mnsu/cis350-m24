@@ -55,7 +55,7 @@ There are two sets of images - one for VirtualBox users who are using Windows or
     If you are successful, you should now see a screen similar to this:
 
     ![Screenshot showing login screen of pentest VM](images/asgn1_pentest.png)
-    
+
     You are now ready to perform your port scan.
 
     (You do not need to screenshot the PenTest boot screen.)
@@ -80,7 +80,9 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     The `nmap` command will default to performing a simple port scan of 1,000 common service ports. All of the ports that the target VM might open are within these 1,000 ports.
 
-    If you are successful, you should see a list of open ports, similar to this:
+    If you are successful, you should see a list of open ports, similar to this: *(note: your IP address and open ports* ***will differ!*** *so do not expect your results to match the ones pictured here)*
+
+    ![Image showing an example port scan](images/asgn1_portscan.png)
 
     **Take a screenshot** showing the list of open ports.
 
