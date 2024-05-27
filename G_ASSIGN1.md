@@ -86,13 +86,17 @@ There are two sets of images - one for VirtualBox users who are using Windows or
 
     ![Image showing an example port scan](images/asgn1_portscan.png)
 
-    **Take a screenshot** showing the list of open ports.
+    **Take a screenshot** showing the list of open ports. The port numbers are listed at the very left of the screen - in the example screenshot, ports 22, 53, 80, and 443 are open on this machine.
 
-1. Power off the target VM by closing its window and choosing to shut down the system. (Do not "save state" or "send shutdown signal" as neither of these will actually effect a full shutdown.) In UTM, click the red button that indicates you are fine with the VM being shutdown "unsafely".
+    > A port scan is used only to discover which ports are available and soliciting connections on a server. Nmap can do advanced scanning to determine other characteristics of these ports, which we will discuss later. 
+    >
+    > In an attack scenario, an attacker might use `nmap` to run port scans on a *range* of IP addresses. For example, `nmap 192.168.1.0/24` would scan all IP addresses which fit within that given subnet. Large port scans can take a long time, but are useful to an attacker since it can help them *map the network* and potentially identify specific machines or targets of interest. As an example, many routers or networking gear will expose certain ports that are specifically used for maintenance of networks; finding these ports open indicates that it is possible that an attacker could gain control of the networking device and use it as a "springboard" to penetrate further into the network.
 
-1. **Repeat the port scan process two more times** for a total of three port scans. (Power on the Target VM and wait for it to display its code words and IP address, then run `nmap` again to do another scan. Once again, screenshot or note both the code words and the list of open ports.) Power off the target VM each time and then turn it back on.
+2. Power off the target VM by closing its window and choosing to shut down the system. (Do not "save state" or "send shutdown signal" as neither of these will actually effect a full shutdown.) In UTM, click the red button that indicates you are fine with the VM being shutdown "unsafely".
 
-1. Once you're done, you can power off the target VM again, and finally you can type
+3. **Repeat the port scan process two more times** for a total of three port scans. (Power on the Target VM and wait for it to display its code words and IP address, then run `nmap` again to do another scan. Once again, screenshot or note both the code words and the list of open ports.) Power off the target VM each time and then turn it back on.
+
+4. Once you're done, you can power off the target VM again, and finally you can type
 
         poweroff
 
@@ -118,3 +122,15 @@ This group project is worth 100 points:
 | Proper procedures and practices followed | 20 | Point loss depends on specific infraction and severity. |
 
 All group members will receive the same score.
+
+## Additional Resources
+
+* [Shodan](https://www.shodan.io/) is a website that runs port scans across large portions of the Internet along with analyzing the services those open ports are exposing and collects the results into a database. It is commonly used both by cybersecurity professionals and hackers to search for and discover potentially vulnerable systems. 
+
+    > Note that Shodan is a legitimate organization that has become recognized in the cybersecurity community as a reliable source of information about public vulnerabilities and networks. Its existance still does not mean you should be performing port scans of your own. The IP addresses Shodan scans from are well known and many organizations explicitly allow them to scan from those addresses because of the net benefit to the cybersecurity community. **Again, do NOT port scan computers you don't have the right to scan for any reason!**
+
+* Palo Alto Networks has [a page](https://www.paloaltonetworks.com/cyberpedia/what-is-a-port-scan) that discusses some of the technical details of how a port scan actually works. It explores concepts such as SYN/ACK packets and the different states a port may be in when scanned. 
+
+* This [YouTube video](https://www.youtube.com/watch?v=BHESuhyrGg4) by NetworkVerge will go into more depth on how port scans work with Nmap. 
+
+* GRC.com's [ShieldsUp!](https://www.grc.com/x/ne.dll?bh0bkyd2) service allows you to port scan your own computer. The website will initiate a port scan of *your* computer or Internet router to tell you which ports, if any, are open. **On most home Internet connections, you want all of your ports to be "filtered" unless you are running a public server for a specific reason**. This is a worthwhile test to make sure you are secure!
