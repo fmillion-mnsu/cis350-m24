@@ -54,3 +54,49 @@ Using the Easy Wizard mode (default):
 
 1. **At this point, your Kali VM is probably connected to the Internet.** This is fine for now, since we aren't actually executing any attacks. However, **before you work on future assignments, you will need to move the Kali VM to the Local Only network!** Details will be in the instructions for each assignment.
 
+### UTM
+
+1. At the UTM main screen, choose Create a New Virtual Machine.
+
+    ![UTM home screen with arrow pointing at the Create New VM button](images/utm_kali_01.png)
+
+1. Choose "Virtualize".
+
+    ![UTM setup screen with Virtualize indicated](images/utm_kali_02.png)
+
+1. Choose Linux as the OS.
+
+    ![UTM setup screen with Linux indicated](images/utm_kali_03.png)
+
+1. Click the Browse button, and locate the downloaded Kali Linux ISO image.
+
+    ![UTM setup screen with ISO selection displayed, browse button indicated](images/utm_kali_04.png)
+
+    Make sure the name of the ISO contains the string `arm64`. If it contains `amd64` (note: they look very similar, so be careful!) then you downloaded the wrong image and should go back and download the Apple Silicon image.
+
+1. Proceed through the rest of the setup and leave everything at the defaults.
+
+    The default is to use 4GB of memory. This should be fine even on a small 8GB Mac, since the target VM will only use a small amount (about 512MB) of memory. However, if you run other services on your machine, you could lower the RAM usage to 2GB by entering `2048` as the memory size. Going much smaller than this will cause unstability and poor performance.
+
+1. Once you reach the summary screen, name the VM.
+
+    ![UTM final summary screen showing "Kali Linux" as the VM name.](images/utm_kali_05.png)
+
+1. Complete the wizard and then start up the VM.
+
+    If all is successful, you should reach the Kali Linux desktop.
+
+    ![UTM running Kali Linux](images/utm_kali_06.png)
+
+### What's Next
+
+You'll use Kali Linux in the final group assignments for the course. However, take some time to "poke around" and look at the wealth of tools and software available to you in Kali. The tools cover a wide variety of security testing, analysis and design scenarios, from reconnaissance (such as nmap) to packet sniffing (with Wireshark) to exploit testing (with Metasploit) and more. 
+
+> Final reminder:
+>
+> Kali Linux is full of powerful tools that can get you in trouble if misused. Before you run any Kali tool against any computing system, make sure that you:
+>
+> * know what the tool does and what using it could do to the target
+> * have permission to, or own, the computer(s)/network(s) you are targeting
+> * practice ethical hacking standards and procedures
+
