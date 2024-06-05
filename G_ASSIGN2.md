@@ -38,7 +38,7 @@ There are two images - one for VirtualBox users who are using Windows or Intel M
 
     If the VM starts successfully, you should see a screen similar to this:
 
-    ![Screenshot showing target VM with code words and IP](images/asgn1_target.png)
+    ![Screenshot showing target VM with code words and IP](images/asgn2_target.png)
 
     **Take a screenshot of this screen**. The four code words on screen are required as part of your submission - not including these code words will result in significant loss of points.
 
