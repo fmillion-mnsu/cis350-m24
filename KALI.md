@@ -46,6 +46,8 @@ Using the Easy Wizard mode (default):
 1. Click Finish. Accept any "warnings" VirtualBox presents to you about not having a virtual hard drive.
 1. Now, try to boot the VM to make sure it works.
 
+    Press Enter at the boot selection screen to start up the desktop environment.
+    
     > Kali is a comprehensive Linux distribution and booting it up may take some time. Be patient!
 
     If you are successful, you should see the Kali desktop screen in your VM:
@@ -83,6 +85,8 @@ Using the Easy Wizard mode (default):
     ![UTM final summary screen showing "Kali Linux" as the VM name.](images/utm_kali_05.png)
 
 1. Complete the wizard and then start up the VM.
+
+    Press Enter at the boot selection screen to start up the desktop environment.
 
     If all is successful, you should reach the Kali Linux desktop.
 
