@@ -47,3 +47,4 @@ These are the steps we discussed in class for setting up and testing VirtualBox 
 
 If you are unable to get VirtualBox to run, please contact me so we can make alternative arrangements.
 
+## Extra: Setting up a NAT network
