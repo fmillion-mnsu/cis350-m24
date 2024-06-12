@@ -48,3 +48,19 @@ These are the steps we discussed in class for setting up and testing VirtualBox 
 If you are unable to get VirtualBox to run, please contact me so we can make alternative arrangements.
 
 ## Extra: Setting up a NAT network
+
+If you're having trouble connecting a VirtualBox VM to the Internet, you can create a NAT network manually which should resolve the problem.
+
+1. Click the Tools row at the top left of the VirtualBox main window. Click the three lines/squares icon and choose Network. Then on the right, click the NAT Networks tab.
+
+    ![Showing the Tools/Networking section of the main window](images/vbox_nat_01.png)
+
+1. Click the green plus sign Create button to add a new NAT network. The network will be given a default name of `NatNetwork`, which you can leave as is.
+
+    ![Showing a NAT network created](images/vbox_nat_02.png)
+
+2. Finally, go back to your VM and edit its config. This time, don't choose "NAT", but instead choost "NAT Network". The new network you created should appear below (named `NatNetwork`).
+
+    ![Screenshot showing the new NAT network selected in a VM](images/vbox_nat_03.png)
+
+Now your VM should be able to access the Internet when you boot it!
